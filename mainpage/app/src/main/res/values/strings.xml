@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">mainpage</string>
+    <string name="profile">PROFILE</string>
+    <string name="add">+</string>
+    <string name="changes">EDIT</string>
+    <string name="number">Roll Number</string>
+    <string name="listsearching">Search</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".time">
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="Set your bedtime in the above clock and then click the below button.."
+        android:textSize="20sp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timePicker1"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="143dp"
+        android:layout_height="49dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="SET"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="143dp"
+        android:layout_height="49dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="CANCEL"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.778" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text=""
+        android:background="@color/colorPrimary"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.471" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

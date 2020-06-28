@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/sdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="35dp"
+        android:text="STUDENT DISCUSSION FORUM"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/autoCompleteTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.384" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dropDownWidth="match_parent"
+        android:hint="Search"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_marginTop="80dp"
+
+        app:layout_constraintVertical_bias="0.145" />
+</RelativeLayout>

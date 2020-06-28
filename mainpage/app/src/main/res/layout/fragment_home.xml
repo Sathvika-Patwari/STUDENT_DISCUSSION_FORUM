@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/sdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="STUDENT DISCUSSION FORUM"
+        android:textSize="25dp" />
+
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="4dp"
+        app:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="634dp"
+        android:layout_below="@+id/sdf"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="51dp">
+
+        <TextView
+            android:id="@+id/posttext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="40sp"
+            android:layout_marginLeft="50sp"
+            android:text="MY FIRST POST"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/postimage"
+            android:layout_width="102dp"
+            android:layout_height="114dp"
+            android:padding="2dp"
+            app:srcCompat="@drawable/ic_baseline_home_24"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/posttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110sp"
+            android:text="sathvika"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds" />
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
